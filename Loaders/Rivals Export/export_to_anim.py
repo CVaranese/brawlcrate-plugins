@@ -71,7 +71,7 @@ def main(bresNode):
 	os.makedirs("./animations_no_x", exist_ok=True)
 
 	for group in BrawlAPI.SelectedNode.Children:
-		if group.Name in VALID_GROUP_NAMES[0]:
+		if group.Name in VALID_GROUP_NAMES:
 			for chr0_node in group.Children:
 
 				def make_anim():
