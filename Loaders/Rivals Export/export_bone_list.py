@@ -24,6 +24,7 @@ def extract_bones(sender, event_args):
     bonesGroup = selNode.FindChild("Bones")
     if not bonesGroup:
         BrawlAPI.ShowWarning("No bones found.", SCRIPT_NAME)
+        return
         
     for bone in bonesGroup.GetChildrenRecursive():
         if bone.Parent:
