@@ -1,0 +1,2 @@
+# keep the loaders byte-identical to the installed copies
+*.py -text
