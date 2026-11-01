@@ -3,6 +3,8 @@
 BrawlCrate loaders (IronPython, BrawlAPI) by Chris Varanese for porting Brawl / Project+ fighters to other games
 (made for a Rivals of Aether 2 port of P+ Captain Falcon). Each adds a right-click menu item in BrawlCrate.
 
+If these loaders are useful to you, a ⭐ on the repo helps other modders find them.
+
 | Loader | Right-click on | Menu item | Writes |
 |---|---|---|---|
 | `Loaders/Rivals Export/export_to_anim.py` | a BRRES with an `AnmChr(NW4R)` folder (e.g. `FitCaptainMotionEtc.pac`'s motion BRRES) | **Export all to anim...** (asks for the fighter's `.mdl0`) | every CHR0 as Maya `.anim`, three sets: `animations_full/` (as in Brawl), `animations_no_trans/` (TransN bone dropped), `animations_no_x/` (TransN Z translation removed); the `ThrowN` bone is renamed `Grab_M` |
@@ -33,6 +35,8 @@ shows up twice.
 BrawlCrate follows this repo's **GitHub Releases**, not its commits: it updates when the latest release's tag
 changes, and the version it shows is that tag. Each version here is a release (`vX.Y.Z`) listed in
 [CHANGELOG.md](CHANGELOG.md).
+
+To hear about new versions without BrawlCrate, star the repo or use **Watch > Custom > Releases** on GitHub.
 
 ## History
 
